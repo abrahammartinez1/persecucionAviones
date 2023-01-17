@@ -3,11 +3,6 @@ package principal;
 import aviones.Avion;
 import aviones.AvionPerseguidor;
 
-//import java.util.Scanner;
-
-/**
- * Clase Principal
- */
 public class Principal {
 
     public static void main(String args[]) {

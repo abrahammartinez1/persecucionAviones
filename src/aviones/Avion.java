@@ -3,11 +3,6 @@ package aviones;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Clase que representa a cualquier de los dos aviones
- * @author Santiago Faci
- * @version curso 2016-2017
- */
 public class Avion extends Observable {
 
     public enum Direccion {
