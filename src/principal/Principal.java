@@ -11,9 +11,6 @@ public class Principal {
         Avion avion = new Avion(1000, 100, Avion.Direccion.DERECHA);
         avion.addObserver(perseguidor);
 
-        /* Para cada cambio que hace el avión se podrá comprobar en pantalla
-         * cómo ha ido reaccionando el avión perseguidor
-         */
         System.out.println("Avion Sube");
         avion.subir();
         System.out.println();
