@@ -32,7 +32,7 @@ public class AvionPerseguidor extends Avion implements Observer {
                 break;
             case GIRAR:
                 girar(((Avion) o).getDireccion());
-                System.out.println("El perseguidor gira");
+                System.out.println("El perseguidor gira " + getDireccion());
                 break;
             default:
         }

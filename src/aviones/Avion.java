@@ -6,11 +6,11 @@ import java.util.Observer;
 public class Avion extends Observable {
 
     public enum Direccion {
-        DERECHA, IZQUIERDA;
+        DERECHA, IZQUIERDA
     }
 
     public enum Accion {
-        SUBIR, BAJAR, ACELERAR, FRENAR, GIRAR;
+        SUBIR, BAJAR, ACELERAR, FRENAR, GIRAR
     }
 
     private int altura;
